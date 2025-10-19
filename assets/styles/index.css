@@ -251,6 +251,7 @@ ul {
   padding: 20px;
   margin-top: 24px;
   padding-bottom: 0px;
+  margin-bottom: 60px;
 
   position: relative;
 }
@@ -285,7 +286,7 @@ ul {
   z-index: 12;
 }
 
-.stay-ahead-pictures-trafic-drive-img{
+.stay-ahead-pictures-trafic-drive-img {
   position: absolute;
   top: 31px;
   left: 25px;
@@ -300,7 +301,7 @@ ul {
   color: #ffffff;
   width: 280px;
   height: 66px;
-  
+
   position: absolute;
   bottom: 18px;
   left: 25px;
@@ -312,4 +313,108 @@ ul {
   bottom: 0px;
   right: 15px;
   z-index: 12;
+}
+
+.servise-text {
+  display: flex;
+  margin-top: 70px;
+}
+
+.servise-text > h2 {
+  width: 684px;
+  height: 98px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  word-spacing: -6px;
+}
+
+.servise-text > p {
+  width: 557px;
+  height: 103px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: #878c91;
+  margin-left: 30px;
+}
+
+.servise-imgs {
+  display: flex;
+  margin-top: 72px;
+  gap: 24px;
+}
+
+.servise-imgs-920 {
+  width: 438px;
+  height: 382px;
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background-color: #010205;
+}
+
+.servise-imgs-920 > img {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.servise-imgs-920 > p {
+  margin-top: 60px;
+  color: #878c91;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 170%;
+  letter-spacing: 0%;
+}
+
+.servise-imgs-920-number {
+  display: flex;
+  align-items: center;
+  width: 209px;
+  height: 63px;
+  padding-left: 40px;
+}
+
+.servise-imgs-920-number > h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 150%;
+  letter-spacing: -3%;
+  margin-top: 120px;
+  margin-bottom: 27px;
+}
+
+.servise-imgs-920-number > p {
+  color: #99cf63;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 150%;
+  letter-spacing: -3%;
+  margin-top: 185px;
+}
+
+.servise-imgs-video {
+  width: 818px;
+  height: 382px;
+  border-radius: 30px;
+  background-color: #00000033;
+}
+
+.servise-imgs-video > h3 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #FFFFFF;
+  letter-spacing: +9px;
+  font-weight: 300;
+  margin-left: 158px;
+  margin-top: 155px;
+}
+
+
+.servise-imgs-video-play-button {
+  margin-left: 670px;
 }
